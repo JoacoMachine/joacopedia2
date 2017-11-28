@@ -36,7 +36,7 @@ las ventanas de mi proyecto son las siguientes:
 ```sh
 - En esta segunda ventana que se puede observar es donde usted puede visualizar la informacion de la materia que selecciono, ademas hay una barra ubicada en la parte superior de la pagina donde se puede un usuario puede cambiar de materia sin volver a el inicio y tambien al la izquierda se le informa en que materia esta situado el usuario.
 ```
-![alt text](https://firebasestorage.googleapis.com/v0/b/joacopedia.appspot.com/o/segpag?alt=media&token=fe7e8875-83b1-4384-8faf-91bd18c139a8)
+![alt text](template_files/segpag)
 
 ```sh
 - En esta tercera ventana que se puede observar es donde usted puede visualizar tres cuadros de texto para poder crear un comentario,donde ademas hay un dos botones:
