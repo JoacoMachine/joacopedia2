@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <title>Escritor de Comentarios</title>
+        <title class="text-muted">Escritor de Comentarios</title>
 
         <!-- CSS -->
         <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -16,7 +18,7 @@
         <nav>
             <div class="nav-wrapper indigo darken-2">
                 <div class="container">
-                    <h1>Escritor de comentarios de JoacoPedia</h1>
+                    <h1 class="text-center">Escritor de comentarios de JoacoPedia</h1>
                 </div>
             </div>
         </nav>
@@ -26,19 +28,19 @@
                     <div class="row">
                         <div class="input-field col s6">
                             <input id="titulo" type="text" class="validate">
-                            <label for="titulo">Titulo del comentario</label>
+                            <label class="text-muted" for="titulo">Titulo del comentario</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s6">
                             <input id="usuario" type="text" class="validate">
-                            <label for="usuario">Usuario que escribe este comentario</label>
+                            <label class="text-muted" for="usuario">Usuario que escribe este comentario</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
                             <textarea id="contenido" class="materialize-textarea"></textarea>
-                            <label for="contenido">Escriba aqui el comentario...</label>
+                            <label class="text-muted" for="contenido">Escriba aqui el comentario...</label>
                         </div>
                     </div>
                 </form>
@@ -46,11 +48,11 @@
             <div class="row">
                 <div class="center">
                     <a class="waves-effect waves-light btn-large indigo" onclick="publicar_anuncio()" href="#">COMENTAR</a>
-                    <a class="waves-effect waves-light btn-large indigo" onclick="get_datos()" >MOSTRAR ANUNCIOS DEL DATABASE</a>
+                  
                 </div>
             </div>
             <div class="row">
-                <div class="center">
+                <div class="text-center">
                     <a class="waves-effect waves-light btn-large indigo" href="template.html">VOLVER A LA PAGINA PRINCIPAL</a>
                 </div>
             </div>
