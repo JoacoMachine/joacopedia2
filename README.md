@@ -47,6 +47,6 @@ las ventanas de mi proyecto son las siguientes:
 
 # Dependencias:
 Mi proyecto depende de:
-- Bootstrap
-- Firebase
-- JavaScript
+- Bootstrap;te dejare un link por si quieres ver Bootstrap (https://getbootstrap.com/docs/3.3/css/)
+- Firebase;te dejare un link por si quieres ver Firebase (https://firebase.google.com/?hl=es-419)
+- JavaScript;te dejare un link por si quieres ver JavaScript (https://www.javascript.com/)
