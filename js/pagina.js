@@ -1,4 +1,4 @@
-window.onscroll = function() {scrollFunction()};
+/*window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
@@ -11,7 +11,7 @@ function scrollFunction() {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-}
+}*/
 
 
 function iniciarGoogle() {
@@ -20,10 +20,8 @@ function iniciarGoogle() {
         var token = result.credential.accessToken;
         // The signed-in user info.
         var user = result.user;
-        
-        document.getElementById("jhony").src=user.fotoURL;
-        alert(user.fotoURL)
-        
+
+        document.getElementById("jhony").src= user.photoURL;
         
     }).catch(function(error) {
         // Handle Errors here.
@@ -46,3 +44,5 @@ $(document).ready((XD) => {
     };
     firebase.initializeApp(config);
 })
+
+

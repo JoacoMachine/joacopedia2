@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>Escritor de Comentarios</title>
+
+        <!-- CSS -->
+        <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
+
+        <!-- Iconos -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-wrapper indigo darken-2">
+                <div class="container">
+                    <h1>Escritor de comentarios de JoacoPedia</h1>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <form id="formulario" class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="titulo" type="text" class="validate">
+                            <label for="titulo">Titulo del comentario</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="usuario" type="text" class="validate">
+                            <label for="usuario">Usuario que escribe este comentario</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="contenido" class="materialize-textarea"></textarea>
+                            <label for="contenido">Escriba aqui el comentario...</label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="center">
+                    <a class="waves-effect waves-light btn-large indigo" onclick="publicar_anuncio()" href="#">COMENTAR</a>
+                    <a class="waves-effect waves-light btn-large indigo" onclick="get_datos()" >MOSTRAR ANUNCIOS DEL DATABASE</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="center">
+                    <a class="waves-effect waves-light btn-large indigo" href="template.html">VOLVER A LA PAGINA PRINCIPAL</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="anuncios"></div>
+
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+
+
+        <!-- Script -->
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/pagina.js"></script>
+        <script type="text/javascript">
+            function limpiar_formulario() {
+                document.getElementById("formulario").reset();
+            }
+            $(document).ready(limpiar_formulario());
+        </script>
+    </body>
+
+</html>
