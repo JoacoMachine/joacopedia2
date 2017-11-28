@@ -43,7 +43,7 @@ las ventanas de mi proyecto son las siguientes:
 - comentar:si el usuario lo lo selecciona se comentara lo escrito
 - volver a la pagina principal: si selecciona este boton volvera a la pagina principal
 ```
-![alt text](https://firebasestorage.googleapis.com/v0/b/joacopedia.appspot.com/o/pag3?alt=media&token=caaeee5c-7e0b-466a-bd45-0e04803904e9)
+![alt text](template_files/pag3)
 
 # Dependencias:
 Mi proyecto depende de:
