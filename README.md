@@ -32,7 +32,7 @@ las ventanas de mi proyecto son las siguientes:
 
 - la ventana que se puede observar es la principal donde usted puede elegir que materia quiere ver seleccionando una imagen,ademas hay un texto arriba de la imagen(ver un canal de mucha ayuda), y si el usuario la selecciona lo llevara a un canal de youtube de la respectiva materia elegida. Tambien hay una barra ubicada en la parte superior de la pagina donde se puede un usuario loguearse con su cuenta de google. A la derecha del boton de google hay otro boton, su funcion es llevar al usuario a otra pagina para asi luego poder crear un comentario(esta pagina la podra ver luego mas adelante) 
 ```
-![alt text](https://firebasestorage.googleapis.com/v0/b/joacopedia.appspot.com/o/pan1?alt=media&token=5b4dc500-0afd-474e-b978-b66721cb82cb)
+![alt text](template_files/pan1)
 ```sh
 - En esta segunda ventana que se puede observar es donde usted puede visualizar la informacion de la materia que selecciono, ademas hay una barra ubicada en la parte superior de la pagina donde se puede un usuario puede cambiar de materia sin volver a el inicio y tambien al la izquierda se le informa en que materia esta situado el usuario.
 ```
